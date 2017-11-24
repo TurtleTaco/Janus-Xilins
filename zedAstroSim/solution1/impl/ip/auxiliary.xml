@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="astroSim" xd:componentRef="astroSim" xd:initiationInterval="559342" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="result_d0" xd:originalName="result_d0" xd:direction="out" xd:interfaceRef="result_d0" xd:busTypeRef="ap_memory" xd:arraySize="54" xd:dataWidth="64"/>
+  <xd:arg xd:name="result_d1" xd:originalName="result_d1" xd:direction="out" xd:interfaceRef="result_d1" xd:busTypeRef="ap_memory" xd:arraySize="54" xd:dataWidth="64"/>
+  <xd:latencyEstimates xd:best-case="559341" xd:worst-case="559341" xd:average-case="559341"/>
+  <xd:resourceEstimates xd:LUT="58964" xd:FF="64040" xd:BRAM="0" xd:DSP="271"/>
+</xd:acceleratorMap>

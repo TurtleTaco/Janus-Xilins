@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="janus.hpp" path="/home/linsun/XilinxLab/zedAstroSim/janus.hpp"/>
+    <originFiles name="zedAstroSim.cpp" path="/home/linsun/XilinxLab/zedAstroSim/zedAstroSim.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="astro_test.cpp" path="/home/linsun/XilinxLab/zedAstroSim/astro_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

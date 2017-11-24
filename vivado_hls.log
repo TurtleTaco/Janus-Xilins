@@ -1,0 +1,258 @@
+INFO: [HLS 200-10] Running '/home/linsun/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-101-generic) on Fri Nov 24 17:35:36 EST 2017
+INFO: [HLS 200-10] On os Ubuntu 16.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/linsun/XilinxLab/zedAstroSim'
+INFO: [HLS 200-10] Opening project '/home/linsun/XilinxLab/zedAstroSim/zedAstroSim'.
+INFO: [HLS 200-10] Adding design file 'janus.hpp' to the project
+INFO: [HLS 200-10] Adding design file 'zedAstroSim.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'astro_test.cpp' to the project
+INFO: [HLS 200-10] Opening solution '/home/linsun/XilinxLab/zedAstroSim/zedAstroSim/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu19eg-ffve1924-3-e-es2'
+INFO: [HLS 200-10] Analyzing design file 'zedAstroSim.cpp' ... 
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:01:44 ; elapsed = 00:01:13 . Memory (MB): peak = 348.109 ; gain = 12.586 ; free physical = 2885 ; free virtual = 10672
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:01:51 ; elapsed = 00:01:20 . Memory (MB): peak = 348.109 ; gain = 12.586 ; free physical = 2715 ; free virtual = 10683
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<169, 116, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:441).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<1, 64, false, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<1, 64, false, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<169, 116, false, (ap_q_mode)5, (ap_o_mode)3, 0>' ().
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:02:09 ; elapsed = 00:01:39 . Memory (MB): peak = 1064.594 ; gain = 729.070 ; free physical = 1866 ; free virtual = 10039
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::mantissa' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:438) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::expv' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:441) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::__signbit' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:473) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' into 'hls::cast_IEEE754<long, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:523) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, double>' into '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:02:12 ; elapsed = 00:01:43 . Memory (MB): peak = 1241.750 ; gain = 906.227 ; free physical = 1660 ; free virtual = 9868
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'janus_loop' (zedAstroSim.cpp:63) in function 'janus_run' for pipelining.
+INFO: [XFORM 203-501] Unrolling loop 'drift_loop' (zedAstroSim.cpp:67) in function 'janus_run' completely.
+INFO: [XFORM 203-501] Unrolling loop 'gravity_loop' (zedAstroSim.cpp:80) in function 'janus_run' completely.
+INFO: [XFORM 203-501] Unrolling loop 'gravity_inner_loop' (zedAstroSim.cpp:81) in function 'janus_run' completely.
+INFO: [XFORM 203-501] Unrolling loop 'end_drift_loop' (zedAstroSim.cpp:110) in function 'janus_run' completely.
+INFO: [XFORM 203-501] Unrolling loop 'output_loop' (zedAstroSim.cpp:117) in function 'janus_run' completely.
+INFO: [XFORM 203-102] Partitioning array 'p' (zedAstroSim.cpp:62) automatically.
+INFO: [XFORM 203-101] Partitioning array 'p'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'p_int'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'p_mass'  in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::mantissa' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:438) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::expv' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:441) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::__signbit' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:473) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' into 'hls::cast_IEEE754<long, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:523) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, double>' into '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:02:21 ; elapsed = 00:01:54 . Memory (MB): peak = 1689.746 ; gain = 1354.223 ; free physical = 1015 ; free virtual = 9442
+WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:02:27 ; elapsed = 00:02:00 . Memory (MB): peak = 1852.668 ; gain = 1517.145 ; free physical = 715 ; free virtual = 9197
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'astroSim' ...
+WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_double_' to 'p_hls_fptosi_double_s'.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_1', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_2', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_3', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_4', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_5', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_6', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_7', zedAstroSim.cpp:96) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_8', zedAstroSim.cpp:96) due to incompatible operation sets.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'p_hls_fptosi_double_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function '__hls_fptosi_double_'.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 120.58 seconds; current allocated memory: 1.329 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 1.329 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'janus_run' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'janus_loop'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 67, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 82, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:111) of variable 'tmp_174', zedAstroSim.cpp:111 on global variable 'p_int_0' and 'load' operation ('p_int_0_load_1', zedAstroSim.cpp:68) on global variable 'p_int_0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 84, distance = 1, offset = 1)
+   between 'store' operation (zedAstroSim.cpp:111) of variable 'tmp_174', zedAstroSim.cpp:111 on global variable 'p_int_0' and 'load' operation ('p_int_0_load_1', zedAstroSim.cpp:68) on global variable 'p_int_0'.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 85, Depth: 94.
+WARNING: [SCHED 204-21] Estimated clock period (17.4ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path consists of the following:
+	'dadd' operation ('tmp_104_0_1', zedAstroSim.cpp:91) (8.71 ns)
+	'dadd' operation ('pre_sqrt_0_1', zedAstroSim.cpp:91) (8.71 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 55.26 seconds; current allocated memory: 1.339 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 2.94 seconds; current allocated memory: 1.356 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'astroSim' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 2.71 seconds; current allocated memory: 1.356 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.33 seconds; current allocated memory: 1.357 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_hls_fptosi_double_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_hls_fptosi_double_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.94 seconds; current allocated memory: 1.357 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'janus_run' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Register 'mul' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_9' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_6' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_10' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_7' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_11' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_8' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_15' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_12' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_16' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_13' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_17' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_14' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_21' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_18' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_22' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_19' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_23' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_20' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_27' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_24' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_28' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_25' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_29' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_26' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_33' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_30' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_34' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_31' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_35' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_32' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_39' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_36' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_40' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_37' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_41' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_38' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_45' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_42' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_46' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_43' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_47' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_44' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_51' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_48' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_52' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_49' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_53' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_int_50' is power-on initialization.
+INFO: [SYN 201-210] Renamed object name 'astroSim_dadddsub_64ns_64ns_64_4_full_dsp' to 'astroSim_dadddsubbkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'astroSim_dsub_64ns_64ns_64_4_full_dsp' to 'astroSim_dsub_64ncud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'astroSim_dmul_64ns_64ns_64_4_max_dsp' to 'astroSim_dmul_64ndEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'astroSim_sitodp_64ns_64_3' to 'astroSim_sitodp_6eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'astroSim_dsqrt_64ns_64ns_64_14' to 'astroSim_dsqrt_64fYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'astroSim_drecip_64ns_64ns_64_7_full_dsp' to 'astroSim_drecip_6g8j' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'janus_run' is 5120 from HDL expression: ((1'b1 == ap_enable_reg_pp0_iter0) & (1'b1 == ap_CS_fsm_pp0_stage24) & (ap_block_pp0_stage24_flag00000000 == 1'b0))
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dadddsubbkb': 23 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dmul_64ndEe': 36 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_drecip_6g8j': 10 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dsqrt_64fYi': 11 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dsub_64ncud': 15 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_sitodp_6eOg': 22 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'janus_run'.
+INFO: [HLS 200-111]  Elapsed time: 1.6 seconds; current allocated memory: 1.368 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'astroSim' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'astroSim/result' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'astroSim' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Global scalar 'mul' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_3' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_0' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_4' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_1' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_5' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_2' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_9' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_6' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_10' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_7' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_11' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_8' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_15' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_12' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_16' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_13' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_17' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_14' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_21' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_18' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_22' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_19' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_23' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_20' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_27' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_24' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_28' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_25' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_29' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_26' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_33' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_30' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_34' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_31' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_35' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_32' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_39' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_36' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_40' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_37' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_41' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_38' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_45' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_42' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_46' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_43' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_47' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_44' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_51' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_48' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_52' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_49' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_53' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global scalar 'p_int_50' will not be exposed as RTL port.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'astroSim'.
+INFO: [HLS 200-111]  Elapsed time: 4.54 seconds; current allocated memory: 1.401 GB.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:03:33 ; elapsed = 00:03:11 . Memory (MB): peak = 1888.262 ; gain = 1552.738 ; free physical = 643 ; free virtual = 9175
+INFO: [SYSC 207-301] Generating SystemC RTL for astroSim.
+INFO: [VHDL 208-304] Generating VHDL RTL for astroSim.
+INFO: [VLOG 209-307] Generating Verilog RTL for astroSim.
+INFO: [HLS 200-112] Total elapsed time: 191.2 seconds; peak allocated memory: 1.401 GB.

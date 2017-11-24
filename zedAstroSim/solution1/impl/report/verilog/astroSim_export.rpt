@@ -1,0 +1,19 @@
+
+
+Implementation tool: Xilinx Vivado v.2017.1
+Project:             zedAstroSim
+Solution:            solution1
+Device target:       xczu19eg-ffve1924-3-e-es2
+Report date:         Fri Nov 24 12:06:57 EST 2017
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:         108918
+FF:           59844
+DSP:            226
+BRAM:             0
+SRL:            348
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    4.775
+Timing met

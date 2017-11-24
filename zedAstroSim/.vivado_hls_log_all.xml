@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_50' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.467-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_53' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.465-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_49' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.462-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_52' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.460-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_48' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.457-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_51' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.455-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_44' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.453-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_47' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.450-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_43' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.448-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_46' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.444-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_42' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.442-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_45' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.439-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_38' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.436-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_41' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.434-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_37' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.431-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_40' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.428-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_36' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.426-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_39' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.424-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_32' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.421-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_35' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.419-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_31' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.417-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_34' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.415-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_30' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.412-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_33' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.410-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_26' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.408-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_29' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.406-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_25' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.404-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_28' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.402-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_24' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.399-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_27' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.397-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_20' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.395-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_23' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.393-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_19' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.391-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_22' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.389-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_18' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.387-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_21' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.385-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_14' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.382-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_17' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.380-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_13' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.378-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_16' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.376-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_12' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.374-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_15' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.372-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_8' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.370-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_11' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.368-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_7' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.366-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_10' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.364-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_6' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.362-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_9' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.361-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_2' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.358-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_5' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.357-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_1' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.355-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_4' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.353-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_0' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.351-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_int_3' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.337-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'mul' will not be exposed as RTL port." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:45.334-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_50' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.729-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_53' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.435-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_49' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.431-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_52' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.428-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_48' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.426-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_51' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.424-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_44' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.422-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_47' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.420-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_43' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.379-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_46' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.375-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_42' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.373-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_45' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.371-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_38' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.369-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_41' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.367-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_37' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.365-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_40' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.363-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_36' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.362-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_39' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.360-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_32' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.359-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_35' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.357-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_31' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.355-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_34' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.354-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_30' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.352-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_33' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.351-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_26' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.349-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_29' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.348-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_25' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.346-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_28' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.345-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_24' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.343-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_27' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.341-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_20' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.339-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_23' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.338-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_19' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.336-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_22' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.335-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_18' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.334-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_21' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.332-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_14' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.331-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_17' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.329-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_13' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.328-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_16' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.324-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_12' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.322-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_15' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.320-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_8' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.318-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_11' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.317-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_7' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.286-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_10' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.285-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_6' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.284-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_9' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.283-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_2' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.282-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_5' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.280-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_1' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.279-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_4' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.278-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_0' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.277-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_int_3' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.276-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'mul' is power-on initialization." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:39.274-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xA;&#x9;'dadd' operation ('tmp_104_0_1', zedAstroSim.cpp:91) (8.71 ns)&#xA;&#x9;'dadd' operation ('pre_sqrt_0_1', zedAstroSim.cpp:91) (8.71 ns)" projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:32.146-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (17.4ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:32.137-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 84, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:111) of variable 'tmp_174', zedAstroSim.cpp:111 on global variable 'p_int_0' and 'load' operation ('p_int_0_load_1', zedAstroSim.cpp:68) on global variable 'p_int_0'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:26.487-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 82, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:111) of variable 'tmp_174', zedAstroSim.cpp:111 on global variable 'p_int_0' and 'load' operation ('p_int_0_load_1', zedAstroSim.cpp:68) on global variable 'p_int_0'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:19.571-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 67, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:38:01.074-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:52.115-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:46.390-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:46.376-0500" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)&#xA;   between 'store' operation (zedAstroSim.cpp:104) of variable 'tmp_79_4', zedAstroSim.cpp:104 on global variable 'p_int_27' and 'load' operation ('p_int_27_load_1', zedAstroSim.cpp:68) on global variable 'p_int_27'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:46.362-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_8', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.884-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_7', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.854-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_6', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.853-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_5', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.851-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_4', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.850-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_3', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.849-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_2', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.847-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'dmul' (zedAstroSim.cpp:97) on 'bitcast' operation ('tmp_107_1', zedAstroSim.cpp:96) due to incompatible operation sets." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.846-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_double_' to 'p_hls_fptosi_double_s'." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.844-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_." projectName="zedAstroSim" solutionName="solution1" date="2017-11-24T17:37:36.825-0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

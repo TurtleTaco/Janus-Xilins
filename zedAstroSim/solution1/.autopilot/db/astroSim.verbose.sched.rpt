@@ -1,0 +1,125 @@
+
+
+================================================================
+== Vivado HLS Report for 'astroSim'
+================================================================
+* Date:           Fri Nov 24 17:38:37 2017
+
+* Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
+* Project:        zedAstroSim
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu19eg-ffve1924-3-e-es2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     17.42|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +--------+--------+--------+--------+---------+
+    |     Latency     |     Interval    | Pipeline|
+    |   min  |   max  |   min  |   max  |   Type  |
+    +--------+--------+--------+--------+---------+
+    |  534177|  534177|  534178|  534178|   none  |
+    +--------+--------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 2
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+* FSM state operations: 
+
+ <State 1>: 0.00ns
+ST_1: StgValue_3 (59)  [2/2] 0.00ns  loc: zedAstroSim.cpp:133
+:2  call fastcc void @janus_run([54 x i64]* %result) nounwind
+
+
+ <State 2>: 0.00ns
+ST_2: StgValue_4 (57)  [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecBitsMap([54 x i64]* %result) nounwind, !map !865
+
+ST_2: StgValue_5 (58)  [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecTopModule([9 x i8]* @astroSim_str) nounwind
+
+ST_2: StgValue_6 (59)  [1/2] 0.00ns  loc: zedAstroSim.cpp:133
+:2  call fastcc void @janus_run([54 x i64]* %result) nounwind
+
+ST_2: StgValue_7 (60)  [1/1] 0.00ns  loc: zedAstroSim.cpp:135
+:3  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
